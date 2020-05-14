@@ -16,7 +16,7 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"semantic-release": "semantic-release",
-		"deploy": "gh-pages"
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
