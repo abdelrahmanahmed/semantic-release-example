@@ -37,9 +37,9 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GH_TOKEN }}
         NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_NPM_TOKEN }} 
         
-    - name: Publish github pages
-      run: |
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/abdelrahmanahmed/semantic-release-example.git
-          npx gh-pages -b gh-pages -u "abdelrahmanahmed <abdelrahmanahmed.wahdan@outlook.com>"
-      env:
-        GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GH_TOKEN }}
+        - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages 
+          FOLDER: build 
