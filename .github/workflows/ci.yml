@@ -43,4 +43,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages 
         FOLDER: build 
-        BASE_BRANCH: gh-pages
+        BASE_BRANCH: master
