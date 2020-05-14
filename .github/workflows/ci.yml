@@ -41,5 +41,4 @@ jobs:
       run: |
         git config user.email "abdelrahman.wahdan@outlook.com"
         git config user.name "abdelrahmanahmed"
-        git config --global credential.helper wincred
         npm run deploy
