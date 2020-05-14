@@ -13,6 +13,8 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
+      with:
+        persist-credentials: false
       
     - name: Use Node.js (12.16.2)
       uses: actions/setup-node@v1
@@ -40,4 +42,3 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GH_TOKEN }}
         BRANCH: master
         FOLDER: build
-        CLEAN: true
