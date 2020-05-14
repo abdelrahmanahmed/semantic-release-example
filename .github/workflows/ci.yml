@@ -40,7 +40,7 @@ jobs:
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        ACCESS_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GH_TOKEN }}
         BRANCH: gh-pages 
         FOLDER: build 
         BASE_BRANCH: master
