@@ -40,6 +40,6 @@ jobs:
     - name: Publish github pages
       run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/abdelrahmanahmed/semantic-release-example.git
-          npx gh-pages -d build -u "abdelrahmanahmed <abdelrahmanahmed.wahdan@outlook.com>"
+          npx gh-pages -b gh-pages -u "abdelrahmanahmed <abdelrahmanahmed.wahdan@outlook.com>"
       env:
         GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GH_TOKEN }}
