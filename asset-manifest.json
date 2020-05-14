@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.0a17fe6e.chunk.js",
-    "main.js.map": "/static/js/main.0a17fe6e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8b132b75.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8b132b75.js.map",
-    "static/js/2.6b805406.chunk.js": "/static/js/2.6b805406.chunk.js",
-    "static/js/2.6b805406.chunk.js.map": "/static/js/2.6b805406.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.abcfdf40ce6b6ff60923c9a5b64ab778.js": "/precache-manifest.abcfdf40ce6b6ff60923c9a5b64ab778.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.6b805406.chunk.js.LICENSE.txt": "/static/js/2.6b805406.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/semantic-release-example/static/css/main.5f361e03.chunk.css",
+    "main.js": "/semantic-release-example/static/js/main.1d4400a8.chunk.js",
+    "main.js.map": "/semantic-release-example/static/js/main.1d4400a8.chunk.js.map",
+    "runtime-main.js": "/semantic-release-example/static/js/runtime-main.a50debb1.js",
+    "runtime-main.js.map": "/semantic-release-example/static/js/runtime-main.a50debb1.js.map",
+    "static/js/2.6b805406.chunk.js": "/semantic-release-example/static/js/2.6b805406.chunk.js",
+    "static/js/2.6b805406.chunk.js.map": "/semantic-release-example/static/js/2.6b805406.chunk.js.map",
+    "index.html": "/semantic-release-example/index.html",
+    "precache-manifest.6f58841fa9f587494cd27c2ce125613a.js": "/semantic-release-example/precache-manifest.6f58841fa9f587494cd27c2ce125613a.js",
+    "service-worker.js": "/semantic-release-example/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/semantic-release-example/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.6b805406.chunk.js.LICENSE.txt": "/semantic-release-example/static/js/2.6b805406.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/semantic-release-example/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b132b75.js",
+    "static/js/runtime-main.a50debb1.js",
     "static/js/2.6b805406.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.0a17fe6e.chunk.js"
+    "static/js/main.1d4400a8.chunk.js"
   ]
 }
