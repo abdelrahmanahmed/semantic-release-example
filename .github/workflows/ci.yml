@@ -37,10 +37,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GH_TOKEN }}
         NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_NPM_TOKEN }} 
         
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GH_TOKEN }}
-        BRANCH: gh-pages 
-        FOLDER: build 
-        BASE_BRANCH: master
+        personal_token: ${{ secrets.SEMANTIC_RELEASE_GH_TOKEN }}
+        publish_dir: ./build
