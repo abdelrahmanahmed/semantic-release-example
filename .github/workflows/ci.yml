@@ -37,8 +37,13 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GH_TOKEN }}
         NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_NPM_TOKEN }} 
         
+    - name: Deploy to Server
+      uses: easingthemes/ssh-deploy@v2.1.1
+      env:
+          SSH_PRIVATE_KEY: ${{ secrets.private }}
+          REMOTE_HOST: github.com
+          REMOTE_USER: abdelrahmanahmed
+
     - name: Deploy to github pages
-      run: |
-        git config user.email "abdelrahman.wahdan@outlook.com"
-        git config user.name "abdelrahmanahmed"
+      run: 
         npm run deploy
