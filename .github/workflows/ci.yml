@@ -37,4 +37,4 @@ jobs:
         NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_NPM_TOKEN }} 
         
     - name: Deploy to github pages
-      run: npm run deploy -d build -u "abdelrahmanahmed abdelrahman.wahdan@outlook.com"
+      run: npm run deploy -d "build" -u "abdelrahmanahmed abdelrahman.wahdan@outlook.com"
