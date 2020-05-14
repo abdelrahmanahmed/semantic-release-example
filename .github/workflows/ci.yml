@@ -14,6 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
+        ssh-key: ${{ secrets.CI_SSH }}
         persist-credentials: false
       
     - name: Use Node.js (12.16.2)
