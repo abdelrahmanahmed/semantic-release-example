@@ -37,12 +37,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GH_TOKEN }}
         NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_NPM_TOKEN }} 
         
-    - name: Deploy to Server
-      uses: easingthemes/ssh-deploy@v2.1.1
-      env:
-          SSH_PRIVATE_KEY: ${{ secrets.private }}
-          REMOTE_HOST: github.com
-          REMOTE_USER: abdelrahmanahmed
+    - name: list
+    - run: git config --list
 
     - name: Deploy to github pages
       run: 
